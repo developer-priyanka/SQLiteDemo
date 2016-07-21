@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp">
+
+    <TextView
+        android:text="ID:"
+        android:layout_width="16dp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="16dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/custid"
+        android:textSize="13sp" />
+    <TextView
+        android:text=","
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:text="First Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="13sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:textSize="13sp"
+        />
+    <TextView
+        android:text=","
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:text="LastName:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="13sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lname"
+        android:textSize="13sp" />
+</LinearLayout>
